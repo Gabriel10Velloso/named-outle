@@ -30,7 +30,7 @@ import { UrlSerializer } from '@angular/router';
   ],
 
   providers: [
-    // sem isso a roda fica toda customizar
+    // sem isso a rota não fica customizada
     { provide: UrlSerializer, useClass: CustomUrlSerializer }
 
   ],
