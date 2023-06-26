@@ -1,7 +1,9 @@
 <button [routerLink]="link1">Link 1</button>
 <button [routerLink]="link2">Link 2</button><br><br><br>
+<button (click)="home()">home</button>
 <div>
   <h1>I am outlet-a</h1>
+
   <router-outlet name="outlet-a"></router-outlet>
 </div>
 
